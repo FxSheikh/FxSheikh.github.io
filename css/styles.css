@@ -1,0 +1,63 @@
+.w3-display-container {
+	border: 1px solid black;
+}
+
+.w3-display-container img {
+	height: 350px;
+}
+
+#home img {
+	height: initial;
+}
+
+#footer {
+	margin-top: 42px !important;
+}
+
+body {
+	background-color: #faebd7;
+}
+
+.description {
+	color: red;
+}
+
+@media screen and (min-width: 993px) {
+	#row1,
+	#row2 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	#row2 {
+		margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#row1 > .row-item,
+	#row2 > .row-item {
+		margin-bottom: 45px !important;
+	}
+}
+
+@media screen and (max-width: 1356px) {
+	.role-text {
+		display: block !important;
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.role-text,
+	.name-text {
+		font-size: 20px !important;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	.role-text,
+	.name-text {
+		font-size: 10px !important;
+	}
+}
